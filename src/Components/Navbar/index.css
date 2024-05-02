@@ -1,0 +1,88 @@
+* {
+  font-family: "Roboto";
+  font-weight: 600;
+}
+
+.navbar {
+  background-color: #b97070;
+  color: #111111;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 20px 0px 20px;
+}
+.nav-items-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 55px;
+  text-decoration: none;
+  color: blu;
+}
+.logo-img {
+  height: 90px;
+  width: 90px;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-item {
+  margin-right: 30px;
+}
+
+.navbar-link {
+  color: #111111;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: #057ddc;
+}
+
+.button {
+  color: white;
+  padding: 10px;
+  width: 100px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 0%,
+    rgba(5, 125, 220, 1) 0%,
+    rgba(10, 53, 87, 1) 100%,
+    rgba(5, 125, 220, 1) 100%
+  );
+  border-radius: 5px;
+}
+
+.button:hover {
+  background: #0a3557;
+
+  transition: background-color 0.5s;
+}
+
+.button0 {
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.button0:hover {
+  background: #0a3557;
+  transition: background-color 0.5s;
+  color: #f4f0f0;
+}
+
+.home-conatiner {
+  margin: 20px;
+}

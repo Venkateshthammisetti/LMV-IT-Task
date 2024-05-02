@@ -1,0 +1,44 @@
+.card-items-conatiner {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  gap: 40px;
+}
+.cards img {
+  height: 40px;
+  width: 40px;
+}
+.cards {
+  display: flex;
+
+  width: 170px;
+  height: auto;
+  border: 3px solid rgba(117, 116, 116, 0.5);
+  padding: 5px 10px;
+  border-radius: 5px;
+  align-items: center;
+  gap: 5px;
+}
+.input-container {
+  justify-self: flex-start;
+  margin-left: 60px;
+  width: 88%;
+}
+.input-container label {
+  font-size: 13px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  left: 10px;
+  top: 10px;
+  width: 50px;
+}
+.input-container input {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 0.5px solid rgb(160, 162, 162);
+}

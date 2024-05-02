@@ -1,0 +1,69 @@
+.heading1 {
+  color: #04227d;
+  font-weight: 900;
+}
+
+.main-elements-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+.elemets {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.main-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.doc-image {
+  height: 50%;
+  width: 50%;
+}
+.gender-button {
+  border: none;
+  background-color: transparent;
+  color: #34363c;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.clicked {
+  font-weight: bold;
+  color: rgb(46, 142, 206);
+  text-decoration: underline;
+  border: none;
+  background-color: transparent;
+
+  font-size: 25px;
+  cursor: pointer;
+  /* Add any other styles you want to apply */
+}
+
+.button-next button {
+  width: 100px;
+  height: 50px;
+  background-color: #1c46c4;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-next button:hover {
+  background-color: #59a7f5;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
